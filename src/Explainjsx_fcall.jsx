@@ -4,12 +4,12 @@ function Explainjsx_fcall() {
     let str = "Good Evining"
 
     function Print() {
-        console.log("I am a Event Handler With no Perameter");
+        alert("I am a Event Handler With no Perameter");
     }
 
     function AddNumber(a,b) {
         let c=a+b;
-        console.log(c);
+        alert(c);
     }
   return (
     <>
