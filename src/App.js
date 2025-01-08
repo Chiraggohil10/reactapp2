@@ -1,5 +1,5 @@
-import Qsp from "./Qsp"
-import './one.css'
+import Qsp from "./Explainjsx_fcall"
+import './Explainjsx_fcall.css'
 function App() {
   return (
     <div>
