@@ -11,3 +11,9 @@ h3::first-letter{
     color: red;
     font-size: 30px;
 }
+
+.greeting{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
