@@ -12,7 +12,7 @@ class State extends Component {                                                 
         let handleSub = () =>{ 
             this.setState(()=>{                                                 // It is used to update the state
                 return (                                                        // It is used to return the updated state
-                    this.state = { 
+                    this.state = {                                              // it is used to return the updated state
                         course : "Web Development",                             // It is used to update the course
                         count : this.state.count + 1                            // It is used to update the count
                     }
@@ -29,4 +29,4 @@ class State extends Component {                                                 
     }
 }
 
-export default State;
+export default State; 
