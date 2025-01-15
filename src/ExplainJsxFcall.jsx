@@ -1,5 +1,5 @@
 import React from 'react'
-function Explainjsx_fcall() {
+function ExplainJsxFcall() {
     let a=100;
     let str = "Good Evining"
 
@@ -28,4 +28,4 @@ function Explainjsx_fcall() {
   )
 }
 
-export default Explainjsx_fcall;
+export default ExplainJsxFcall;
