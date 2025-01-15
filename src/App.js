@@ -6,8 +6,8 @@ import State from "./State";
 function App() {
   return (
     <div>
-      {/* <h1>Explain JSX and Function Calling,Event Handlers</h1>
-      <Explainjsx_fcall/> */}
+      <h1>Explain JSX and Function Calling,Event Handlers</h1>
+      <Explainjsx_fcall/>
 
       <h1>State in React</h1>
       <State/>
