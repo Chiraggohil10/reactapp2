@@ -18,8 +18,8 @@ class State extends Component {                                                 
                     }
                 )
             })
-            console.log(this.state.count);                                      // It is used to print the count
         }
+        
         return(                                                                 // It is used to return the component
             <>
             <h1>The Class is On : {this.state.course}</h1>                        {/* // It is used to display the course */}
