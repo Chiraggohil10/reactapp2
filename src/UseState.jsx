@@ -1,7 +1,7 @@
 import { useState   } from "react";
 
 function Restaurant() {
-    let [counter,setCounter] = useState(0);
+    let [counter,setCounter] = useState(0); // counter is dynamic variable,setcounter is set function,usestate is hook and intial value is 0
 
     function add() {
         setCounter(counter + 1)
