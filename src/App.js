@@ -3,10 +3,11 @@ import './Explainjsx_fcall.css'
 import FetchDataFromClassComp from "./FetchDataFromClassComp";
 import Formating from "./Formating";
 import State from "./State";
+import Restaurant from "./UseState"
 function App() {
   return (
     <div>
-      <h1>Explain JSX and Function Calling,Event Handlers</h1>
+      {/* <h1>Explain JSX and Function Calling,Event Handlers</h1>
       <ExplainJsxFcall/>
 
       <hr/>
@@ -25,8 +26,10 @@ function App() {
       
 
       <h1>Fetching Data from API using Class Component</h1>
-      <FetchDataFromClassComp/>
+      <FetchDataFromClassComp/> */}
 
+        <h1>useStateHook</h1>
+        <Restaurant/>
      
       
     </div>
