@@ -28,8 +28,8 @@ function App() {
       <h1>Fetching Data from API using Class Component</h1>
       <FetchDataFromClassComp/> */}
 
-        <h1>useStateHook</h1>
-        <Restaurant/>
+      <h1>useStateHook</h1>
+      <Restaurant/>
      
       
     </div>
