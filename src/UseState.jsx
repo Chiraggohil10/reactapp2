@@ -54,10 +54,10 @@ function Restaurant() {
 
     return(
         <>
-            <h1>Restaurant</h1>  
-            <p>The Number of Order : <b>{counter}</b></p>     
-            <button onClick={add}>Order Added</button> 
-            <button onClick={remove}>Order Removed</button>
+            <h1 className="heading">Restaurant</h1>  
+            <p className="para">The Number of Order : <b>{counter}</b></p>     
+            <button onClick={add} className="btn">Order Added</button> 
+            <button onClick={remove} className="btn">Order Removed</button>
         </>
     )
 }
