@@ -3,7 +3,9 @@ import './style.css'
 // import FetchDataFromClassComp from "./FetchDataFromClassComp";
 // import Formating from "./Formating";
 // import State from "./State";
-import Restaurant from "./UseState"
+// import Restaurant from "./UseState"
+import FormatingUsingJson from "./FormatingUsingJson";
+
 function App() {
   return (
     <div>
@@ -26,12 +28,13 @@ function App() {
       
 
       <h1>Fetching Data from API using Class Component</h1>
-      <FetchDataFromClassComp/> */}
+      <FetchDataFromClassComp/> 
 
       <h1 className="heading">useStateHook</h1>
-      <Restaurant/>
+      <Restaurant/> */}
      
-      
+      <h1>Formating Using Json</h1>
+      <FormatingUsingJson/>
     </div>
   );
 }
