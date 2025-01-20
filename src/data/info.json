@@ -1,0 +1,28 @@
+{
+    "Users" : [
+        {
+            "id" : "101",
+            "name" : "chirag",
+            "email" : "chirag@gmail.com",
+            "mobile" : "5255265555"
+        },
+        {
+            "id" : "102",
+            "name" : "parth",
+            "email" : "parth@gmail.com",
+            "mobile" : "525551265555"
+        },
+        {
+            "id" : "103",
+            "name" : "amosh",
+            "email" : "amosh@gmail.com",
+            "mobile" : "5255244655"
+        },
+        {
+            "id" : "104",
+            "name" : "manas",
+            "email" : "manas@gmail.com",
+            "mobile" : "5252265555"
+        }
+    ]
+}
