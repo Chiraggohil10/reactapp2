@@ -1,4 +1,10 @@
-h2{
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* h2{
     background-color: aquamarine;
 }
 
@@ -10,7 +16,9 @@ h3{
 h3::first-letter{
     color: red;
     font-size: 30px;
-}
+} */
+
+
 
 .greeting{
     background-color: black;
@@ -46,4 +54,69 @@ h3::first-letter{
     color: white;
     transition: 1s;
     border: 2px solid white;
+}
+
+.users{
+    display: flex;
+    background-color: #fdf5e6;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.desc{
+    transform: translateX(50px);
+    color: black;
+    width: 80%;
+    background-color: #fa8072;
+    border-radius: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.identity{
+    text-transform: capitalize;
+}
+
+.cart img{
+    width: 300px;
+    height: 300px;
+}
+
+.main{
+    display: grid;
+    margin: 20px 20px;
+    grid-template-columns: 355px 355px 355px 355px;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.cart{
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.cart button{
+    all: unset;
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 5px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fa8072;
+}
+
+.cart button:hover{
+    background-color: black;
+    color: #fa8072;
+    transition: 1s;
+    border: 2px solid #fa8072;
+}
+
+.cart p{
+    margin-bottom: 7px;
 }

@@ -4,37 +4,36 @@ import './style.css'
 // import Formating from "./Formating";
 // import State from "./State";
 // import Restaurant from "./UseState"
-import FormatingUsingJson from "./FormatingUsingJson";
+// import FormatingUsingJson from "./FormatingUsingJson";
+import FetchDataFromuseEffect from './FetchDataFromuseEffect';
+import CartProjectUsingusEffect from './CartProjectUsingusEffect';
 
 function App() {
   return (
     <div>
-      {/* <h1>Explain JSX and Function Calling,Event Handlers</h1>
-      <ExplainJsxFcall/>
+       {/* <h1 className="heading">Explain JSX and Function Calling,Event Handlers</h1>
+      <ExplainJsxFcall/> */}
 
-      <hr/>
-      <hr/>
+      {/* <h1 className="heading">State Using Class Based Component</h1>
+      <State/> */}
+
+      {/* <h1 className="heading">Display Data using Function Component</h1>
+      <Formating/> */}
       
-      <h1>State in React</h1>
-      <State/>
+      {/* <h1 className="heading" >Fetching Data from API using Class Component</h1>
+      <FetchDataFromClassComp/>  */}
 
-      <hr/>
-      <hr/>
-
-      <h1>Fetching Data From API using Function Component</h1>
-      <Formating/>
-
-      <hr/>
-      
-
-      <h1>Fetching Data from API using Class Component</h1>
-      <FetchDataFromClassComp/> 
-
-      <h1 className="heading">useStateHook</h1>
-      <Restaurant/> */}
+      {/* <h1 className="heading">useStateHook</h1>
+      <Restaurant/>  */}
      
-      <h1>Formating Using Json</h1>
-      <FormatingUsingJson/>
+      {/* <h1 className="heading">Formating Using Json</h1>
+      <FormatingUsingJson/>*/}
+
+      {/* <h1 className="heading">Fetching Data From API using Function Component Using useEffect</h1>
+      <FetchDataFromuseEffect/> */}
+
+        <h1 className='heading'>CartProject Using useEffect</h1>
+        <CartProjectUsingusEffect/>
     </div>
   );
 }
