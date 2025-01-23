@@ -25,7 +25,7 @@ export default function CartProjectUsingusEffect() {
                     return (
                         <React.Fragment key={x.id}>
                             <div className="cart">
-                                    <img src={x.thumbnail} />
+                                    <img src={x.images[0]} />
                                     <p><b>Title : </b>{x.title}</p>
                                     <p><b>Price :</b> {x.price}</p>
                                     <p><b>Discount Price : </b>{Math.round(x.price - (x.price * x.discountPercentage / 100))}</p>
