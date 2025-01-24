@@ -18,7 +18,7 @@ function ExplainJsxFcall() {
         <h1 style={{"color":"red","backgroundColor":"black"}}>This IS number : {a}</h1> {/*This is how we can use inline css in JSX*/}
         <h2>Welcome TO react</h2>
         <h3>Jspiders</h3>
-        <h2>{str}: Everyone</h2>
+         <h2>{str}: Everyone</h2>                                    {/*This is how we can use evulated expression means only result will be printed */}
         {element}                                                   {/*This is how we can use element in JSX */}
         {Print()}                                                   
         {AddNumber(23,30)}
