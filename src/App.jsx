@@ -1,19 +1,23 @@
-// import ExplainJsxFcall from "./ExplainJsxFcall"
+import ExplainJsxFcall from "./ExplainJsxFcall"
 import './style.css'
-// import FetchDataFromClassComp from "./FetchDataFromClassComp";
-// import Formating from "./Formating";
-// import State from "./State";
-// import Restaurant from "./UseState"
-// import FormatingUsingJson from "./FormatingUsingJson";
-// import FetchDataFromuseEffect from './FetchDataFromuseEffect';
-// import CartProjectUsingusEffect from './CartProjectUsingusEffect';
-import 'bootstrap/dist/css/bootstrap.min.css';
-// import Conditional from './Conditional';
+import FetchDataFromClassComp from "./FetchDataFromClassComp";
+import Formating from "./Formating";
+import State from "./State";
+import Restaurant from "./UseState"
+import FormatingUsingJson from "./FormatingUsingJson";
+import FetchDataFromuseEffect from './FetchDataFromuseEffect';
+import CartProjectUsingusEffect from './CartProjectUsingusEffect';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import Conditional from './Conditional';
 import Lenovo from './Props/Lenovo';
+import Navbar from './Navbar/Navbar';
 
 function App() {
   return (
     <div>
+      {/* <h1 className="heading">Sample Navbar</h1>
+      <Navbar/> */}
+
        {/* <h1 className="heading">Explain JSX and Function Calling,Event Handlers</h1>
       <ExplainJsxFcall/> */}
 
@@ -41,7 +45,10 @@ function App() {
       {/* <h1 className='heading'>When Click Button The Conditional Component Will Render</h1>
       <Conditional/> */}
       
-      <Lenovo/>
+      {/* <h1 className='heading'>Props</h1>
+      <Lenovo/> */}
+
+
     </div>
   );
 }
