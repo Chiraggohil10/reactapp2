@@ -8,7 +8,8 @@ import './style.css'
 // import FetchDataFromuseEffect from './FetchDataFromuseEffect';
 // import CartProjectUsingusEffect from './CartProjectUsingusEffect';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Conditional from './Conditional';
+// import Conditional from './Conditional';
+import Lenovo from './Props/Lenovo';
 
 function App() {
   return (
@@ -37,8 +38,10 @@ function App() {
       {/* <h1 className='heading'>CartProject Using useEffect</h1>
       <CartProjectUsingusEffect/> */}
 
-      <h1 className='heading'>When Click Button The Conditional Component Will Render</h1>
-      <Conditional/>
+      {/* <h1 className='heading'>When Click Button The Conditional Component Will Render</h1>
+      <Conditional/> */}
+      
+      <Lenovo/>
     </div>
   );
 }
