@@ -5,8 +5,10 @@ import './style.css'
 // import State from "./State";
 // import Restaurant from "./UseState"
 // import FormatingUsingJson from "./FormatingUsingJson";
-import FetchDataFromuseEffect from './FetchDataFromuseEffect';
-import CartProjectUsingusEffect from './CartProjectUsingusEffect';
+// import FetchDataFromuseEffect from './FetchDataFromuseEffect';
+// import CartProjectUsingusEffect from './CartProjectUsingusEffect';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Conditional from './Conditional';
 
 function App() {
   return (
@@ -27,13 +29,16 @@ function App() {
       <Restaurant/>  */}
      
       {/* <h1 className="heading">Formating Using Json</h1>
-      <FormatingUsingJson/>*/}
+      <FormatingUsingJson/> */}
 
       {/* <h1 className="heading">Fetching Data From API using Function Component Using useEffect</h1>
       <FetchDataFromuseEffect/> */}
 
-        <h1 className='heading'>CartProject Using useEffect</h1>
-        <CartProjectUsingusEffect/>
+      {/* <h1 className='heading'>CartProject Using useEffect</h1>
+      <CartProjectUsingusEffect/> */}
+
+      <h1 className='heading'>When Click Button The Conditional Component Will Render</h1>
+      <Conditional/>
     </div>
   );
 }
