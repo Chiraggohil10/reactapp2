@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 export default function CartProjectUsingusEffect() {
 
     let [cart, setCart] = useState([]);
-
     useEffect(() => {
         async function getData() {
             let res = await fetch('http://localhost:1000/products')
