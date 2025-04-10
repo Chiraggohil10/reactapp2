@@ -1,12 +1,13 @@
 import Hp from './Hp'
 function Lenovo(){
-    let Num=100;
+    let Num=120;
     console.log("Lenovo file data: "+Num);
     
     return(
         <>
         <h1>Welcome to Lenovo Parent Tag :-</h1>
         <b>this is a parent tag Lenovo:- {Num}</b>
+        
         <Hp data={Num}/>
         </>
     )

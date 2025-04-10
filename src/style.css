@@ -31,6 +31,7 @@ h3::first-letter{
     color: white;
     font-size: 30px;
     text-align: center;
+    margin: 100px 0px;
 }
 
 .para{
@@ -128,4 +129,25 @@ h3::first-letter{
 
 .cart p{
     margin-bottom: 7px;
+}
+
+.spin{
+        height: 100px;
+        width: 100px;
+        border: 10px solid gray;
+        border-top: 10px solid red;
+        border-radius: 100px;
+        animation-name: spin;
+        animation-duration: .6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
